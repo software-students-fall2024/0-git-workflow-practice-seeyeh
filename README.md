@@ -1,2 +1,5 @@
-# Git Practice
-A simple project to practice a few git/github workflows.  Replace the contents of this file with the contents indicated in the [instructions](./instructions.md).
+# My Article: The Undeniable Utility of CSS ':has'
+
+https://www.joshwcomeau.com/css/has/?utm_source=tldrwebdev
+
+This article talks about the use of the :has pseudo-class and how it helps conditionally style elements based on children elements (or even completely unrelated sibling elements!) without ever needing to use JS or React State––which may be helpful to know for our class since we're using raw HTML and CSS. I especially appreciate the way Josh breaks down his thinking for why he might use :has over :focus-within when he's talking about styling a parent component with multiple interactive children, and the careful consideration of the user's experience for not just for mouse-users, but also for keyboard-users as well. Some of the tradeoffs, however, are the relatively smaller degree of browser support for :has and :focus-within and, in my opinion, some code-readability issues and redundant hard-coding. But it's cool that you can manage logic like this all in your CSS!––it is daunting, though, to know that there are several ways of doing the same task (some with just CSS, some a combo of CSS/JS). How do you know that the way you've implemented something could've been simpler? How does CSS even work––in what cases can we simplify conditional rendering of things to be written in just our CSS and in what cases can we not? How do people figure this stuff out??
